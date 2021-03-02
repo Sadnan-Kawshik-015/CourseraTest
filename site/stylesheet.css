@@ -1,0 +1,25 @@
+body
+{
+	background-color: yellow;
+	color: blue;
+	text-align: center;
+	border: 2px solid blue
+}
+
+h1
+{
+	color: red;
+	font-size: 300%;
+}
+p
+{
+	color: green;
+	text-align: center;
+	margin: 50px
+}
+button
+{
+	background-color: blue;
+	color: white;
+	font-size: 120%;
+}
