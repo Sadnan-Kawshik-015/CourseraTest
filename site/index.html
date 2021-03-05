@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="eng">
 <head>
-	<meta charset="utf-8">
+	<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="stylesheet.css">
 	<style >
 		.fact
@@ -13,15 +13,14 @@
 			padding: 10px
 		}
 	</style>
-	
 	<title>Hello Coursera</title>
 </head>
 <body ">
 	<ul>
-		<li><a href="#home">Home</a></li>
+		<li><a href="index.html">Home</a></li>
 		<li><a href="#about">About</a></li>
 		<li><a href="#degree">Degree</a></li>
-		<li><a href="#faq">FAQ</a></li>
+		<li><a href="#facts">Facts</a></li>
 	</ul>
 <h1>Sadnan Kibria Kawshik</h1>
 
@@ -31,10 +30,10 @@
 <div><a href="https://www.facebook.com/sadnan.kawshik" target="_blank">Sadnan Kawshik</a></div>
 
 
-<p >This is a paragraph.<br>I am Sadnan Kawshik.<br>Nice to meet you.<br>This is my facebook id: <a href="https://www.facebook.com/sadnan.kawshik" target="_blank">Sadnan Kawshik</a></p>
+<div><p >This is a paragraph.<br>I am Sadnan Kawshik.<br>Nice to meet you.<br>This is my facebook id: <a href="https://www.facebook.com/sadnan.kawshik" target="_blank">Sadnan Kawshik</a></p>
+</div>
 
-
-<table align="center">
+<table align="center" id="#degree">
 	<caption><b>Educational Qualifications</b></caption>
 	<tr>
 		<th>Degree</th>
@@ -80,7 +79,7 @@
 <address>Houese-30,Road-36,Sector-7,Uttara,Dhaka-1230<br>Mail : sadnan.kssad@gmail.com</address>
 <p style="color: green"> My favourite book is <cite>Kohen Kobi Kalidash</cite> by Humayun Ahmed</p>
 
-<div class="fact">
+<div class="fact" id="#facts">
 	<h2>Facts about me</h2>
 	<ol>
 		<li>I like Football</li>
@@ -89,7 +88,13 @@
 	</ol>
 </div>
 
+<div>
+	<h3>My github<br></h3>
+	<iframe src="https://github.com/Sadnan-Kawshik-015/CourseraTest/tree/gh-pages" title="Goldbridge live" style="width: 1080px;height: 200px;"></iframe>
+</div>
+
 <button onclick="document.location='https://www.facebook.com/sadnan.kawshik'" target="_blank">Facebook</button>
+<button onclick="document.getElementById('index.html').innerHTML = Date();">Click Me</button>
 
 </body>
 </html>
